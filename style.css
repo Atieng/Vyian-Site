@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    background-image: url("Images/27b1a554c3648ad5ec25969477ca881e.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #db0007;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .live-updates, .player-profiles {
+    margin: 2rem 0;
+  }
+  
+  footer {
+    background-color: #db0007;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
