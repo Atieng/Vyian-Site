@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arsenal Fun hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arsenal Fan Hub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <a href="#" class="menu-list">Home</a>
-        <a href="#" class="menu-list">History</a>
-        <a href="#" class ="menu-list">Catalogue</a>
+  <header>
+    <h1>Arsenal Fan Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#players">Players</a></li>
+        <li><a href="#matches">Matches</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    </div>
-    <h1>ARSENAL FUN WEB</h1>
+  <main id="home">
+    <section class="welcome">
+      <!-- <h2>Welcome to the Arsenal Fan Hub!</h2>
+      <p>Stay updated with the latest news, player stats, and match highlights.</p> -->
+    </section>
+    <section id="live-updates" class="live-updates">
+      <h2>Live Match Updates</h2>
+      <div id="match-updates"></div>
+    </section>
+    <section id="players" class="player-profiles">
+      <h2>Player Profiles</h2>
+      <div id="player-list"></div>
+    </section>
+  </main>
 
-    
+  <footer>
+    <p>&copy; 2025 Arsenal Fan Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
