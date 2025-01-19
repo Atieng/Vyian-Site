@@ -19,10 +19,12 @@ body {
   }
   
   header {
-    background-color: #db0007;
-    color: white;
-    padding: 1.5rem;
-    text-align: right;
+  background-color: #db0007;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
   
   .logo{
@@ -61,18 +63,69 @@ body {
      
   
   }
+
+  nav ul li a:hover{
+    color: rgb(1, 7, 59);
+    text-decoration: none;
+     
   
-  main {
-    padding: 2rem;
   }
   
-  .welcome {
+  .hero {
+    position: relative;
+    background-image: url('path/to/your/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  .live-updates, .player-profiles {
-    margin: 2rem 0;
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+    z-index: 1;
   }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-buttons {
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    color: white;
+    background-color: #042549;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-secondary {
+    background-color: #FFCC00;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
   
   footer {
     background-color: #db0007;
