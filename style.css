@@ -79,8 +79,22 @@ body {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
   }
-  
+  .player-profiles-img {
+    max-width: 500%;
+    height:150px;
+    border-radius: 50%;
+  }
+  .player-profiles {
+    background-color:ivory;
+    padding: 1000x;
+    margin: 16x;
+    border: 5x;
+    
+  }
+  .img {
+    max-width: 400%;
+  }
