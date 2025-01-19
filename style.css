@@ -9,10 +9,11 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: #f4f4f4; */
-    background-image: url("Images/photo-1577223597229-2a83f97def38.jpeg");
+    /* background-image: url("Images/gettyimages-1214681817-612x612.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-position: center;
+    background-size: cover;
     
    
     
@@ -73,10 +74,10 @@ body {
   
   .hero {
     position: relative;
-    background-image: url('path/to/your/background.jpg');
+    background-image:url("Images/gettyimages-1214681817-612x612.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 60vh;
     color: white;
     text-align: center;
     display: flex;
@@ -99,6 +100,15 @@ body {
     position: relative;
     z-index: 2;
   }
+  .hero-content h1{
+    font-size: 50px;
+  }
+  .hero-content h1 span{
+    color: #c9a208;
+  }
+  .hero-content p{
+    font-size: 20px;
+  }
   
   .hero-buttons {
     margin-top: 1rem;
@@ -115,7 +125,7 @@ body {
   }
   
   .btn-secondary {
-    background-color: #FFCC00;
+    background-color: #c9a208;
   }
   
   .btn:hover {
@@ -123,8 +133,52 @@ body {
   }
   
   .btn-secondary:hover {
-    background-color: #5a6268;
+    background-color: #c9a208;
   }
+
+  .image-text-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .image-text-section .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .image-text-section .text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .image-text-section .text h2 {
+    margin-top: 0;
+    color: #d6ae0b;
+    font-size: 30px;
+  }
+  .image-text-section .text h2 span{
+    color:#db0007;
+  }
+  .image-text-section .text p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+
+  }
+  
+  .image-text-section .image {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .image-text-section .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
   
   
   footer {
@@ -132,7 +186,7 @@ body {
     color: white;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 0;
   }
